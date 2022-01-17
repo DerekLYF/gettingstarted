@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className=''>
         <div className=' bg-neutral-800 py-2 lg:px-24'>
-        
+
         <a className='text-white text-sm '>Cars & Property</a>
         <a className='text-white text-sm ml-4'>Fashion</a>
         <a className='text-white text-sm ml-4'>Home & Living</a>
