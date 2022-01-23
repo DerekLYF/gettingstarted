@@ -29,7 +29,16 @@ export default function Home() {
        <div className=' items-center flex px-16 py-2 border-b-neutral-100 border-b'>
           <img src="/carousell-logo.svg" width={168} height={32}/>
           <input className=' bg-gray-100 h-12 w-391 ml-6 px-4 rounded-l focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="Search for an item" spellCheck='false' type='text'></input>
-          <input className=' bg-gray-100 h-12 w-274 ml-0.25 px-12 focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="All of Hong Kong" spellCheck='false' type='text'></input>
+          <div>
+            <input className=' bg-gray-100 h-12 w-274 ml-0.25 px-12 focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="All of Hong Kong" spellCheck='false' type='text' list='venue'></input>
+            <datalist id='venue'>
+              <option value='Listing near me'/>
+              <option value='All of Hong Kong'/>
+              <option value='Area'/>
+              <option value='District'/>
+              <option value='MTR'/>
+            </datalist>
+          </div>
           <div className='rounded-r w-58 flex h-12 bg-gray-100 justify-center'>
             <button className='place-self-center h-8 w-10 pl-3 bg-teal-600  rounded-sm' role="submitButton" type="submit">
               <img className='h-4 w-4' src='/search-line-3.png'></img>
@@ -49,9 +58,9 @@ export default function Home() {
           <button className='-ml-10'>
             <img className='w-10 h-10 opacity-80 drop-shadow-4xl' src='/Asset 2.png'></img>
           </button>
-        </div> 
+        </div>
       </main>
-
+      
       
     </div>
   )
