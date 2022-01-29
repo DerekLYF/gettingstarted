@@ -68,13 +68,12 @@ export default function Home() {
           </button>
         </div>
         {/*Featyure end*/}
-
         {/*Explore Carousell start*/}
         <p className='pl-16 text-2xl font-medium pt-10'>Explore Carousell</p>
         <div className='pl-16 pt-8 flex'>
           <div className='w-121px h-152px'>
             <a className=''>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/56-Following-cxxhdpi_1579665374.01.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pl-3 pt-2'>Following</p>
@@ -82,7 +81,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/56-Services-cxxhdpi_1579665464.54.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pl-5 pt-2'>Services</p>
@@ -90,7 +89,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/01_computers_tech.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Computers & Tech</p>
@@ -98,7 +97,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/02_mobile_phones_gadgets.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-6 pt-3 text-center'>Mobile Phones & Gadgets</p>
@@ -106,7 +105,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/08_womens_fashion.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Women's Fashion</p>
@@ -114,7 +113,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/56-Property-cxxhdpi_1579665459.19.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Property</p>
@@ -122,7 +121,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/09_mens_fashion.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-7 pt-3 text-center'>Men's Fashion</p>
@@ -130,7 +129,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/56-Cars-cxxhdpi_1579665347.31.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-9 pt-3 text-center'>Cars</p>
@@ -138,7 +137,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/13_beauty_personal_care.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-6 pt-3 text-center'>Beauty & Per-sonal Care</p>
@@ -146,7 +145,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/10_luxury.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Luxury</p>
@@ -154,7 +153,7 @@ export default function Home() {
           </div>
           <div className='w-121px h-152px'>
             <a className='pl-1'>
-              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
                 <img src='/freeitems-1579255406.png' className='w-72px h-72px place-self-center'/>
               </div>
               <p className='text-sm text-black/70 pr-7 pt-3 text-center'>Free Items</p>
@@ -169,7 +168,7 @@ export default function Home() {
         {/*Recommended For you start*/}
         <p className='pl-16 text-2xl font-medium pt-10'>Recommended For you</p>
         <div>
-          
+
         </div>
         {/*Recommended For you end*/}
       </main>
