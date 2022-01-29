@@ -476,7 +476,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='mt-8'>
+        <div className='mt-8 items-center justify-center'>
           <p className='text-center text-xs opacity-60'>Advertsement</p>
           <a className=' mx-auto mt-1 w-728px h-90px flex justify-center items-center group'>
             <div className='bg-rose-200 w-126px h-38px rounded -mr-152px z-0 group-hover:bg-black transition duration-700 ease-in-out'>
@@ -1282,6 +1282,24 @@ export default function Home() {
               </div>
               <img className='border-8 rounded-md w-120px h-120px ml-4' src='/carousell_qrcode_branch.png'/>
             </div>
+          </div>
+        </div>
+        <div className='items-center justify-center flex '>
+          <div className='mt-8 w-1377px pb-14 border-b-2 border-dashed mb-2'>
+            <p className='text-center text-xs opacity-60'>Advertsement</p>
+            <a className=' mx-auto mt-1 w-728px h-90px flex justify-center items-center group'>
+              <div className='bg-rose-200 w-126px h-38px rounded -mr-152px z-0 group-hover:bg-black transition duration-700 ease-in-out'>
+                <p className='pt-2.5 text-center text-sm font-bold group-hover:text-white transition duration-700 ease-in-out'>SHOP NOW</p>
+              </div>
+              <div className=' w-728px h-90'>
+                <img className=' border-rose-200 border-6 w-728px h-90px object-cover' src='/img2.jpg'/>
+              
+              </div>
+              <div className='-ml-48'>
+                <p className='text-xs font-bold -mb-6'> Spark something special</p>
+                <img className='w-179px -mb-8' src='/Pandora-Logo-PNG4.png'/>
+              </div>
+            </a>
           </div>
         </div>
         {/* Everone wins on Carousell end */}
