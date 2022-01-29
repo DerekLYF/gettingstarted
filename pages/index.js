@@ -12,6 +12,8 @@ export default function Home() {
       </Head>
 
       <main className=''>
+
+        {/*content bar start*/}
         <div className='bg-neutral-800 py-2 px-14 flex items-center'>
 
           <img src = "/white Carousell-logo-square.png" width={33} height={33} />
@@ -26,6 +28,9 @@ export default function Home() {
           <a className='text-white text-sm ml-auto font-semibold'>Register</a>
           <a className='text-white text-sm ml-6 font-semibold pr-9'>Login</a>
         </div>
+        {/*content bar end*/}
+
+        {/*search bar start*/}
        <div className=' items-center flex px-16 py-2 border-b-neutral-100 border-b'>
           <img src="/carousell-logo.svg" width={168} height={32}/>
           <input className=' bg-gray-100 h-12 w-391 ml-6 px-4 rounded-l focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="Search for an item" spellCheck='false' type='text'></input>
@@ -48,6 +53,9 @@ export default function Home() {
             <button className='w-76px  h-8 rounded-md text-white font-medium bg-red-500 active:bg-red-700 '>Sell</button>
           </div>
        </div>
+        {/*Search bar end*/}
+
+        {/*Feature start*/}
         <div className='flex justify-center py-4 gap-4 mr-6'>
           <a>
             <img src='/13782050885610001892.jpeg' width={648} height={264}></img>
@@ -59,6 +67,111 @@ export default function Home() {
             <img className='w-10 h-10 opacity-80 drop-shadow-4xl' src='/Asset 2.png'></img>
           </button>
         </div>
+        {/*Featyure end*/}
+
+        {/*Explore Carousell start*/}
+        <p className='pl-16 text-2xl font-medium pt-10'>Explore Carousell</p>
+        <div className='pl-16 pt-8 flex'>
+          <div className='w-121px h-152px'>
+            <a className=''>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/56-Following-cxxhdpi_1579665374.01.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pl-3 pt-2'>Following</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/56-Services-cxxhdpi_1579665464.54.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pl-5 pt-2'>Services</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/01_computers_tech.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Computers & Tech</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/02_mobile_phones_gadgets.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-6 pt-3 text-center'>Mobile Phones & Gadgets</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/08_womens_fashion.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Women's Fashion</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/56-Property-cxxhdpi_1579665459.19.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Property</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/09_mens_fashion.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-7 pt-3 text-center'>Men's Fashion</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/56-Cars-cxxhdpi_1579665347.31.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-9 pt-3 text-center'>Cars</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/13_beauty_personal_care.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-6 pt-3 text-center'>Beauty & Per-sonal Care</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/10_luxury.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-8 pt-3 text-center'>Luxury</p>
+            </a>
+          </div>
+          <div className='w-121px h-152px'>
+            <a className='pl-1'>
+              <div className='rounded-full w-86px h-86px transition ease-in-out delay-150 duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
+                <img src='/freeitems-1579255406.png' className='w-72px h-72px place-self-center'/>
+              </div>
+              <p className='text-sm text-black/70 pr-7 pt-3 text-center'>Free Items</p>
+            </a>
+          </div>
+          <button className='-ml-86px'>
+            <img className='w-10 h-10 opacity-80 drop-shadow-4xl' src='/Asset 2.png'></img>
+          </button>
+        </div>
+        {/*Explore Carousell end*/}
+
+        {/*Recommended For you start*/}
+        <p className='pl-16 text-2xl font-medium pt-10'>Recommended For you</p>
+        <div>
+          
+        </div>
+        {/*Recommended For you end*/}
       </main>
       
       
