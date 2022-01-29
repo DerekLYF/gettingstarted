@@ -33,9 +33,9 @@ export default function Home() {
         {/*search bar start*/}
        <div className=' items-center flex px-16 py-2 border-b-neutral-100 border-b'>
           <img src="/carousell-logo.svg" width={168} height={32}/>
-          <input className=' bg-gray-100 h-12 w-391 ml-6 px-4 rounded-l focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="Search for an item" spellCheck='false' type='text'></input>
+          <input className='focus:z-0 bg-gray-100 h-12 w-391 ml-6 px-4 rounded-l focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="Search for an item" spellCheck='false' type='text'></input>
           <div>
-            <input className=' bg-gray-100 h-12 w-274 ml-0.25 px-12 focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="All of Hong Kong" spellCheck='false' type='text' list='venue'></input>
+            <input className='focus:z-0 bg-gray-100 h-12 w-274 ml-0.25 px-12 focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="All of Hong Kong" spellCheck='false' type='text' list='venue'></input>
             <datalist id='venue'>
               <option value='Listing near me'/>
               <option value='All of Hong Kong'/>
@@ -50,7 +50,7 @@ export default function Home() {
             </button>
           </div>
           <div className='pl-304px '>
-            <button className='w-76px  h-8 rounded-md text-white font-medium bg-red-500 active:bg-red-700 '>Sell</button>
+            <button className='w-76px  h-8 rounded-md text-white font-medium bg-red-500 hover:bg-red-700 '>Sell</button>
           </div>
        </div>
         {/*Search bar end*/}
@@ -68,6 +68,7 @@ export default function Home() {
           </button>
         </div>
         {/*Featyure end*/}
+
         {/*Explore Carousell start*/}
         <p className='pl-16 text-2xl font-medium pt-10'>Explore Carousell</p>
         <div className='pl-16 pt-8 flex'>
@@ -166,11 +167,1124 @@ export default function Home() {
         {/*Explore Carousell end*/}
 
         {/*Recommended For you start*/}
+        
         <p className='pl-16 text-2xl font-medium pt-10'>Recommended For you</p>
-        <div>
 
+        <div className='pt-3 pl-58 grid grid-cols-4'>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='mt-8'>
+          <p className='text-center text-xs opacity-60'>Advertsement</p>
+          <a className=' mx-auto mt-1 w-728px h-90px flex justify-center items-center group'>
+            <div className='bg-rose-200 w-126px h-38px rounded -mr-152px z-0 group-hover:bg-black transition duration-700 ease-in-out'>
+              <p className='pt-2.5 text-center text-sm font-bold group-hover:text-white transition duration-700 ease-in-out'>SHOP NOW</p>
+            </div>
+            <div className=' w-728px h-90'>
+              <img className=' border-rose-200 border-6 w-728px h-90px object-cover' src='/img2.jpg'/>
+              
+            </div>
+            <div className='-ml-48'>
+              <p className='text-xs font-bold -mb-6'> Spark something special</p>
+              <img className='w-179px -mb-8' src='/Pandora-Logo-PNG4.png'/>
+            </div>
+          </a>
+        </div>
+        <div className='pt-3 pl-58 grid grid-cols-4'>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-3 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-6 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className='-ml-9 p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
+            <div>
+              <div className=''>
+                <a className='flex items-center pt-2'>
+                  <div className='w-8 h-8 rounded-full overflow-hidden'>
+                    <img src='/default.png'/>
+                  </div>
+                  <div>
+                    <div className='pl-3'>
+                      <p className=' text-sm font-semibold'>seanloh724</p>
+                    </div>
+                    <div className='pl-3 pt-1'>
+                      <p className='text-xs opacity-70'>2 days ago</p>
+                    </div>
+                  </div>
+                </a>
+                <a className=''>
+                  <div className='pt-2'>
+                    <div className='overflow-hidden'>
+                      <img className='w-306px h-306px object-cover rounded' src='/razer_mamba_elite_1643228829_e93d0b36_progressive_thumbnail.jpg'/>
+                    </div>
+                  </div>
+                  <div className='pt-2'>
+                    <p className='text-sm'>Razer Manba Elite</p>
+                  </div>
+                  <p className='font-semibold'>HK$350</p>
+                  <p className='text-sm opacity-70'>Like new</p>
+                </a>
+              </div>
+              <div className='pt-3'>
+                <button className='flex items-center'>
+                  <svg class=" h-4 w-4" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17 1c3.852 0 7 3.148 7 7 0 3.858-2.067 7.513-5.44 10.724C16.158 21.01 13.04 23 12 23s-4.158-1.99-6.56-4.276C2.067 15.514 0 11.858 0 8c0-3.852 3.148-7 7-7 1.917 0 3.688.79 5 2.13C13.312 1.79 15.083 1 17 1zm0 2c-1.677 0-3.205.854-4.176 2.267a1 1 0 0 1-1.648 0C10.205 3.854 8.676 3 7 3 4.252 3 2 5.252 2 8c0 3.215 1.804 6.406 4.82 9.276C8.86 19.218 11.652 21 12 21c.347 0 3.14-1.782 5.18-3.724C20.197 14.406 22 11.215 22 8c0-2.748-2.252-5-5-5z" fill="#57585a"></path>
+                  </svg>
+                  <p className='text-sm  text-black/70 pl-1'>1</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='flex items-center justify-center mt-6'>
+        <button className=' w-28 h-10 border border-neutral-400  mx-auto text-center items-center rounded-md hover:bg-gray-100 transition duration-300 font-semibold'>View more</button>
         </div>
         {/*Recommended For you end*/}
+
+        {/* Everone wins on Carousell start */}
+        <div className="mt-10 bg-[url('/carousell_qrcode_background.png')] w-full h-484px flex items-center justify-center">
+          <div>
+            <img  className='w-422px h-419px' src='carousell_qrcode_cats.png'/>
+          </div>
+          <div className='ml-16'>
+            <p className='text-white text-4xl font-semibold'>Everyone Wins on Carousell</p>
+            <p className=' mt-6 text-white text-xl w-552.06px h-14 break-words'>Unlock exclusive features when you download the Carousell app today!</p>
+            <div className='flex mt-6'>
+              <div>
+                <div className=''>
+                  <a>
+                    <img className='w-193px h-256px' src="https://storage.googleapis.com/carousell-sl/homescreens/main/carousell_qrcode_apple_store.svg"/>
+                  </a>
+                </div>
+                <div className='mt-2'>
+                  <a>
+                    <img className='w-193px h-256px' src="https://storage.googleapis.com/carousell-sl/homescreens/main/carousell_qrcode_gplay.svg"/>
+                  </a>
+                </div>
+              </div>
+              <img className='border-8 rounded-md w-120px h-120px ml-4' src='/carousell_qrcode_branch.png'/>
+            </div>
+          </div>
+        </div>
+        {/* Everone wins on Carousell end */}
       </main>
       
       
