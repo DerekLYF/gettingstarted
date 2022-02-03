@@ -14,7 +14,7 @@ export default function Home() {
       <main className=''>
 
         {/*content bar start*/}
-        <div className='bg-neutral-800 py-2 px-14 flex items-center'>
+        <div className='bg-neutral-800 py-2 px-14 flex items-center sticky top-0 z-0'>
 
           <img src = "/white Carousell-logo-square.png" width={33} height={33} />
           <p className=' text-white text-opacity-30 ml-2.5 text-xl font-extralight'>|</p>    
@@ -71,7 +71,7 @@ export default function Home() {
 
         {/*Explore Carousell start*/}
         <p className='pl-16 text-2xl font-medium pt-10'>Explore Carousell</p>
-        <div className='pl-16 pt-8 flex'>
+        <div className='pl-16 pt-8 flex z-1'>
           <div className='w-121px h-152px'>
             <a className=''>
               <div className='rounded-full w-86px h-86px transition ease-in-out duration-300 hover:bg-gray-200/70 hover:-translate-y-1 inline-flex justify-center'>
@@ -170,7 +170,7 @@ export default function Home() {
         
         <p className='pl-16 text-2xl font-medium pt-10'>Recommended For you</p>
 
-        <div className='pt-3 pl-58 grid grid-cols-4'>
+        <div className='pt-3 pl-58 grid grid-cols-4 z-1'>
           <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
             <div>
               <div className=''>
@@ -492,7 +492,7 @@ export default function Home() {
             </div>
           </a>
         </div>
-        <div className='pt-3 pl-58 grid grid-cols-4'>
+        <div className='pt-3 pl-58 grid grid-cols-4 z-1'>
           <div className='p-2 w-322px h-486px bg-white hover:drop-shadow-md transition rounded'>
             <div>
               <div className=''>
@@ -1260,7 +1260,7 @@ export default function Home() {
         {/*Recommended For you end*/}
 
         {/* Everone wins on Carousell start */}
-        <div className="mt-10 bg-[url('/carousell_qrcode_background.png')] w-full h-484px flex items-center justify-center">
+        <div className="mt-10 bg-[url('/carousell_qrcode_background.png')] w-full h-484px flex items-center justify-center z-1">
           <div>
             <img  className='w-422px h-419px' src='carousell_qrcode_cats.png'/>
           </div>
@@ -1284,8 +1284,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className='items-center justify-center flex '>
-          <div className='mt-8 w-1377px pb-14 border-b-2 border-dashed mb-2'>
+        <div className='items-center justify-center flex z-1'>
+          <div className='mt-8 w-1377px pb-14 border-b border-dashed mb-2 border-zinc-400 '>
             <p className='text-center text-xs opacity-60'>Advertsement</p>
             <a className=' mx-auto mt-1 w-728px h-90px flex justify-center items-center group'>
               <div className='bg-rose-200 w-126px h-38px rounded -mr-152px z-0 group-hover:bg-black transition duration-700 ease-in-out'>
@@ -1303,6 +1303,25 @@ export default function Home() {
           </div>
         </div>
         {/* Everone wins on Carousell end */}
+
+        {/* Top searches start*/}
+        <div className='w-1297px justify-center items-center mx-16 mt-6 mb-3 pb-4 border-b border-solid'>
+          <p className=' text-xs font-semibold mb-4'>Top searches</p>
+          <div className='flex flex-wrap w-1297px h-60px space-x-1 text-xs -ml-1 '>
+            <p></p><a className='text-teal-500'>chanel</a><p>|</p><a className='text-teal-500'>mirror</a><p>|</p><a className='text-teal-500'>ps5</a><p>|</p><a className='text-teal-500'>張敬軒演唱會</a><p>|</p><a className='text-teal-500'>iphone</a><p>|</p><a className='text-teal-500'>hermes</a><p>|</p><a className='text-teal-500'>海港城coupon</a><p>|</p><a className='text-teal-500'>ipad</a><p>|</p><a className='text-teal-500'>rolex</a><p>|</p><a className='text-teal-500'>ps4</a><p>|</p><a className='text-teal-500'>口罩</a><p>|</p><a className='text-teal-500'>airpods pro</a><p>|</p><a className='text-teal-500'>單車</a><p>|</p><a className='text-teal-500'>dior</a><p>|</p><a className='text-teal-500'>celine</a><p>|</p><a className='text-teal-500'>nike</a><p>|</p><a className='text-teal-500' className='text-teal-500'>gucci</a><p>|</p><a className='text-teal-500'>lego</a><p>|</p><a className='text-teal-500'>lv</a><p>|</p><a className='text-teal-500'>switch game</a><p>|</p><a className='text-teal-500'>bearbrick</a><p>|</p><a className='text-teal-500'>loewe</a><p>|</p><a className='text-teal-500'>迪士尼門票</a><p>|</p><a className='text-teal-500'>iphone 13</a><p>|</p><a className='text-teal-500'>dyson</a><p>|</p><a className='text-teal-500'>利是封</a><p>|</p><a className='text-teal-500'>lulu豬</a><p>|</p><a className='text-teal-500'>壽司郎</a><p>|</p><a className='text-teal-500'>new balance</a><p>|</p><a className='text-teal-500'>csl mirror</a><p>|</p><a className='text-teal-500'>雪櫃</a><p>|</p><a className='text-teal-500'>電視</a><p>|</p><a className='text-teal-500'>mirror 麥當勞</a><p>|</p><a className='text-teal-500'>coach</a><p>|</p><a className='text-teal-500'>casetify</a><p>|</p><a className='text-teal-500'>prada</a><p>|</p><a className='text-teal-500'>airpods</a><p>|</p><a className='text-teal-500'>samsung</a><p>|</p><a className='text-teal-500'>鏡仔卡</a><p>|</p><a className='text-teal-500'>麻雀</a><p>|</p><a className='text-teal-500'>張敬軒</a><p>|</p><a className='text-teal-500'>ikea</a><p>|</p><a className='text-teal-500'>burberry</a><p>|</p><a className='text-teal-500'>tory burch</a><p>|</p><a className='text-teal-500'>pokemon</a><p>|</p><a className='text-teal-500'>marshall</a><p>|</p><a className='text-teal-500'>安心出行手機</a><p>|</p><a className='text-teal-500'>ysl</a><p>|</p><a className='text-teal-500'>balenciaga</a><p>|</p><a className='text-teal-500'>mirror卡</a>
+          </div>
+        </div>
+        {/* top searches end */}
+        
+        {/* bottom catagory start */}
+        <div className='mx-16 w-1297px'>
+          <div>
+            <p>汽車及樓宇</p>
+          </div>
+        </div>
+
+        {/* bottom catagory start */}
+      
       </main>
       
       
