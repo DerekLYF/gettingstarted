@@ -56,7 +56,7 @@ export default function Home() {
         {/*Search bar end*/}
 
         {/*Feature start*/}
-        <div className='flex justify-center py-4 gap-4 mr-6'>
+        <div className='flex justify-center py-4 gap-4 mx16'>
           <a>
             <img src='/13782050885610001892.jpeg' width={648} height={264}></img>
           </a>
