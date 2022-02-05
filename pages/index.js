@@ -14,7 +14,7 @@ export default function Home() {
       <main className=''>
 
         {/*content bar start*/}
-        <div className='bg-neutral-800 py-2 px-14 flex items-center sticky top-0 z-0'>
+        <div className='bg-neutral-800 py-1.5 px-14 flex items-center sticky top-0 z-0'>
 
           <img src = "/white Carousell-logo-square.png" width={33} height={33} />
           <p className=' text-white text-opacity-30 ml-2.5 text-xl font-extralight'>|</p>    
@@ -31,7 +31,7 @@ export default function Home() {
         {/*content bar end*/}
 
         {/*search bar start*/}
-       <div className=' items-center flex px-16 py-2 border-b-neutral-100 border-b'>
+       <div className=' items-center flex px-16 py-2 border-b-neutral-100 border-b sticky top-45px bg-white'>
           <img src="/carousell-logo.svg" width={168} height={32}/>
           <input className='focus:z-0 bg-gray-100 h-12 w-391 ml-6 px-4 rounded-l focus:outline-none focus:ring-4 focus:ring-teal-600/20 focus:ring-offset-1 focus:ring-offset-teal-600 focus:bg-white' placeHolder="Search for an item" spellCheck='false' type='text'></input>
           <div>
@@ -1305,7 +1305,7 @@ export default function Home() {
         {/* Everone wins on Carousell end */}
 
         {/* Top searches start*/}
-        <div className='w-1297px justify-center items-center mx-16 mt-6 mb-3 pb-4 border-b border-solid'>
+        <div className='w-1297px justify-center items-center mx-16 mt-6 pb-4 border-b border-solid'>
           <p className=' text-xs font-semibold mb-4'>Top searches</p>
           <div className='flex flex-wrap w-1297px h-60px space-x-1 text-xs -ml-1 '>
             <p></p><a className='text-teal-500'>chanel</a><p>|</p><a className='text-teal-500'>mirror</a><p>|</p><a className='text-teal-500'>ps5</a><p>|</p><a className='text-teal-500'>張敬軒演唱會</a><p>|</p><a className='text-teal-500'>iphone</a><p>|</p><a className='text-teal-500'>hermes</a><p>|</p><a className='text-teal-500'>海港城coupon</a><p>|</p><a className='text-teal-500'>ipad</a><p>|</p><a className='text-teal-500'>rolex</a><p>|</p><a className='text-teal-500'>ps4</a><p>|</p><a className='text-teal-500'>口罩</a><p>|</p><a className='text-teal-500'>airpods pro</a><p>|</p><a className='text-teal-500'>單車</a><p>|</p><a className='text-teal-500'>dior</a><p>|</p><a className='text-teal-500'>celine</a><p>|</p><a className='text-teal-500'>nike</a><p>|</p><a className='text-teal-500' className='text-teal-500'>gucci</a><p>|</p><a className='text-teal-500'>lego</a><p>|</p><a className='text-teal-500'>lv</a><p>|</p><a className='text-teal-500'>switch game</a><p>|</p><a className='text-teal-500'>bearbrick</a><p>|</p><a className='text-teal-500'>loewe</a><p>|</p><a className='text-teal-500'>迪士尼門票</a><p>|</p><a className='text-teal-500'>iphone 13</a><p>|</p><a className='text-teal-500'>dyson</a><p>|</p><a className='text-teal-500'>利是封</a><p>|</p><a className='text-teal-500'>lulu豬</a><p>|</p><a className='text-teal-500'>壽司郎</a><p>|</p><a className='text-teal-500'>new balance</a><p>|</p><a className='text-teal-500'>csl mirror</a><p>|</p><a className='text-teal-500'>雪櫃</a><p>|</p><a className='text-teal-500'>電視</a><p>|</p><a className='text-teal-500'>mirror 麥當勞</a><p>|</p><a className='text-teal-500'>coach</a><p>|</p><a className='text-teal-500'>casetify</a><p>|</p><a className='text-teal-500'>prada</a><p>|</p><a className='text-teal-500'>airpods</a><p>|</p><a className='text-teal-500'>samsung</a><p>|</p><a className='text-teal-500'>鏡仔卡</a><p>|</p><a className='text-teal-500'>麻雀</a><p>|</p><a className='text-teal-500'>張敬軒</a><p>|</p><a className='text-teal-500'>ikea</a><p>|</p><a className='text-teal-500'>burberry</a><p>|</p><a className='text-teal-500'>tory burch</a><p>|</p><a className='text-teal-500'>pokemon</a><p>|</p><a className='text-teal-500'>marshall</a><p>|</p><a className='text-teal-500'>安心出行手機</a><p>|</p><a className='text-teal-500'>ysl</a><p>|</p><a className='text-teal-500'>balenciaga</a><p>|</p><a className='text-teal-500'>mirror卡</a>
@@ -1314,14 +1314,78 @@ export default function Home() {
         {/* top searches end */}
         
         {/* bottom catagory start */}
-        <div className='mx-16 w-1297px'>
+        <div className='mx-16 w-1297px mt-8 pb-12 border-b border-solid'>
           <div>
-            <p>汽車及樓宇</p>
+            <p className='text-xs font-medium'>汽車及樓宇</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>二手汽車放售</a><p>•</p><a className='hover:text-teal-700 hover:underline'>汽車出租</a><p>•</p><a className='hover:text-teal-700 hover:underline'>汽車配件</a><p>•</p><a className='hover:text-teal-700 hover:underline'>電單車買賣</a><p>•</p><a className='hover:text-teal-700 hover:underline'>樓盤放售</a><p>•</p><a className='hover:text-teal-700 hover:underline'>樓盤出租</a><p>•</p><a className='hover:text-teal-700 hover:underline'>海外樓盤</a><p>•</p><a className='hover:text-teal-700 hover:underline'>屋苑</a><p>•</p><a className='hover:text-teal-700 hover:underline'>單棟式大廈</a><p>•</p><a className='hover:text-teal-700 hover:underline'>村屋</a>
+            </div>
+          </div>
+          <div>
+            <p className='mt-8 text-xs font-medium'>流行時尚</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>男裝</a><p>•</p><a className='hover:text-teal-700 hover:underline'>女裝</a><p>•</p><a className='hover:text-teal-700 hover:underline'>美容及化妝品</a><p>•</p><a className='hover:text-teal-700 hover:underline'>名牌</a><p>•</p><a className='hover:text-teal-700 hover:underline'>男裝袋 ＆ 銀包</a><p>•</p><a className='hover:text-teal-700 hover:underline'>男裝鞋</a><p>•</p><a className='hover:text-teal-700 hover:underline'>女裝袋 ＆ 銀包</a><p>•</p><a className='hover:text-teal-700 hover:underline'>女裝鞋</a><p>•</p><a className='hover:text-teal-700 hover:underline'>皮膚護理</a><p>•</p><a className='hover:text-teal-700 hover:underline'>化妝品</a>
+            </div>
+          </div>
+          <div>
+            <p className='mt-8 text-xs font-medium'>傢俬及家品</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>書本及文具</a><p>•</p><a className='hover:text-teal-700 hover:underline'>兒童＆孕婦用品</a><p>•</p><a className='hover:text-teal-700 hover:underline'>傢俬＆家居</a><p>•</p><a className='hover:text-teal-700 hover:underline'>廚房用具</a><p>•</p><a className='hover:text-teal-700 hover:underline'>教科書</a><p>•</p><a className='hover:text-teal-700 hover:underline'>文具</a><p>•</p><a className='hover:text-teal-700 hover:underline'>小說 & 故事書</a><p>•</p><a className='hover:text-teal-700 hover:underline'>BB車</a><p>•</p><a className='hover:text-teal-700 hover:underline'>玩具</a><p>•</p><a className='hover:text-teal-700 hover:underline'>女小朋友時裝</a>
+            </div>
+          </div>
+          <div>
+            <p className='mt-8 text-xs font-medium'>電子產品</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>手提電話</a><p>•</p><a className='hover:text-teal-700 hover:underline'>電腦 ＆ 平板電腦</a><p>•</p><a className='hover:text-teal-700 hover:underline'>電視 & 其他電器</a><p>•</p><a className='hover:text-teal-700 hover:underline'>錄音器材</a><p>•</p><a className='hover:text-teal-700 hover:underline'>電話＆平板電腦裝飾</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Apple產品</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Samsung產品</a><p>•</p><a className='hover:text-teal-700 hover:underline'>ipad</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Airpods</a><p>•</p><a className='hover:text-teal-700 hover:underline'>手機維修</a>
+            </div>
+          </div>
+          <div>
+            <p className='mt-8 text-xs font-medium'>興趣及遊戲</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>攝影器材</a><p>•</p><a className='hover:text-teal-700 hover:underline'>運動產品</a><p>•</p><a className='hover:text-teal-700 hover:underline'>韓流</a><p>•</p><a className='hover:text-teal-700 hover:underline'>手作＆自家設計</a><p>•</p><a className='hover:text-teal-700 hover:underline'>遊戲機</a><p>•</p><a className='hover:text-teal-700 hover:underline'>日本明星</a><p>•</p><a className='hover:text-teal-700 hover:underline'>玩具 & 遊戲類</a><p>•</p><a className='hover:text-teal-700 hover:underline'>古董收藏</a><p>•</p><a className='hover:text-teal-700 hover:underline'>音樂樂器 & 配件</a><p>•</p><a className='hover:text-teal-700 hover:underline'>寵物用品</a>
+            </div>
+          </div>
+          <div>
+            <p className='mt-8 text-xs font-medium'>工作及服務</p>
+            <div className='mt-2 flex flex-wrap space-x-1.5 text-xs font-light text-zinc-800 '>
+              <a className='hover:text-teal-700 hover:underline'>兼職</a><p>•</p><a className='hover:text-teal-700 hover:underline'>全職</a><p>•</p><a className='hover:text-teal-700 hover:underline'>實習</a><p>•</p><a className='hover:text-teal-700 hover:underline'>家居服務</a><p>•</p><a className='hover:text-teal-700 hover:underline'>商務服務</a><p>•</p><a className='hover:text-teal-700 hover:underline'>品味生活服務</a><p>•</p><a className='hover:text-teal-700 hover:underline'>學習及增潤課程</a><p>•</p><a className='hover:text-teal-700 hover:underline'>酒店，餐飲</a><p>•</p><a className='hover:text-teal-700 hover:underline'>活動策劃</a><p>•</p><a className='hover:text-teal-700 hover:underline'>客戶服務</a>
+            </div>
           </div>
         </div>
 
         {/* bottom catagory start */}
-      
+        {/* bottom start */}
+        <div className='mx-16 flex items-center w-1297px'>
+          <div className='flex items-center -ml-2'>
+            <img className='' src='/red Carousell-logo-square.png' width={37} height={37}/>
+            <p className='ml-0.5 text-xs text-zinc-600'>© 2022 Carousell</p>
+            <div className='ml-6 flex text-xs text-zinc-600 space-x-1.5'>
+              <a className='hover:text-teal-700 hover:underline'>Help Centre</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Contact Us</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Press</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Jobs</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Advertise with Us</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Terms</a><p>•</p><a className='hover:text-teal-700 hover:underline'>Privacy</a>
+            </div>
+          </div>
+          <div className='flex items-center ml-auto my-8'>
+            <div className='flex space-x-2'>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-au-1Vu2Ly0cBR.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-ca-3zQT2z3CIo.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-hk-1Fq4xKBpW1.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-id-3hB56YEmaV.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-my-GKdsVkW7Qq.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-nz-24qlj462lw.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-ph-cYUSK6Hapb.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-sg-3PPSOjFS5a.jpg'/>
+            <img className=' w-6 h-6' src='https://mweb-cdn.karousell.com/build/flag-tw-6cZEDUfY6q.jpg'/>
+            </div>
+            <div className='ml-10'>
+              <select>
+                <option>English</option>
+                <option>繁體中文 (台灣)</option>
+                <option>繁體中文 (香港)</option>
+                <option>Bahasa Indonesia</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        {/* bottom end */}
       </main>
       
       
