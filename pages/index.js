@@ -1354,6 +1354,7 @@ export default function Home() {
         </div>
 
         {/* bottom catagory start */}
+        
         {/* bottom start */}
         <div className='mx-16 flex items-center w-1297px'>
           <div className='flex items-center -ml-2'>
